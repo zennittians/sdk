@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "include": ["src", "../../typings/**/*.d.ts"],
+  "references": [
+    {"path": "../stkon-account"},
+    {"path": "../stkon-crypto"},
+    {"path": "../stkon-utils"},
+    {"path": "../stkon-transaction"},
+    {"path": "../stkon-network"}
+  ]
+}

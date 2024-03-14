@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+  },
+  "files": [],
+  "references": [
+    { "path": "packages/stkon-utils" },
+    { "path": "packages/stkon-crypto" },
+    { "path": "packages/stkon-network" },
+    { "path": "packages/stkon-transaction" },
+    { "path": "packages/stkon-staking" },
+    { "path": "packages/stkon-account" },
+    { "path": "packages/stkon-contract" },
+    { "path": "packages/stkon-core" }
+  ],
+  "toc": ["stkon-account", "stkon-core"]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@stkon-js/staking",
+  "version": "0.1.58",
+  "description": "staking transaction package for stkon",
+  "main": "dist/index.js",
+  "node": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@stkon-js/crypto": "0.1.58",
+    "@stkon-js/network": "0.1.58",
+    "@stkon-js/transaction": "0.1.58",
+    "@stkon-js/utils": "0.1.58",
+    "text-encoding": "^0.7.0"
+  },
+  "gitHead": "56606e9365721729a490c27d6a294e0daf90fbdf"
+}

@@ -1,0 +1,22 @@
+0 silly argv { _: [ 'version' ], lernaVersion: '8.1.2', '$0': 'lerna' }
+1 notice cli v8.1.2
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
+3 verbose rootPath /home/winay/Desktop/stkon/stkon-sdks/js-sdk
+4 info current version 0.1.58
+5 silly isAnythingCommitted
+6 verbose isAnythingCommitted 1
+7 silly getCurrentBranch
+8 verbose currentBranch main
+9 silly remoteBranchExists
+10 silly isBehindUpstream
+11 error Error: Command failed with exit code 1: git remote update
+11 error remote: Repository not found.
+11 error fatal: repository 'https://github.com/techbank-global/stkon-sdks.git/' not found
+11 error error: Could not fetch origin
+11 error Fetching origin
+11 error     at makeError (/home/winay/Desktop/stkon/stkon-sdks/js-sdk/node_modules/lerna/node_modules/execa/lib/error.js:59:11)
+11 error     at module.exports.sync (/home/winay/Desktop/stkon/stkon-sdks/js-sdk/node_modules/lerna/node_modules/execa/index.js:186:17)
+11 error     at Object.execSync (/home/winay/Desktop/stkon/stkon-sdks/js-sdk/node_modules/lerna/dist/index.js:142:31)
+11 error     at updateRemote (/home/winay/Desktop/stkon/stkon-sdks/js-sdk/node_modules/lerna/dist/index.js:7780:18)
+11 error     at isBehindUpstream (/home/winay/Desktop/stkon/stkon-sdks/js-sdk/node_modules/lerna/dist/index.js:7770:3)
+11 error     at VersionCommand.initialize (/home/winay/Desktop/stkon/stkon-sdks/js-sdk/node_modules/lerna/dist/index.js:8061:57)
